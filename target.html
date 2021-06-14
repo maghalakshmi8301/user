@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>USERS</title>
+</head>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<button type="button" onclick="loadDoc()">get user</button>
+<script type="text/javascript">
+	function loadDoc() {
+		alert("DFe")
+  var xhttp = new XMLHttpRequest();
+  const url='https://myuser.free.beeceptor.com/my/api/path';
+Http.open("GET", url);
+Http.send();
+Http.onreadystatechange = (e) => {
+  alert(Http.responseText)
+}
+}
+</script>
+</body>
+</html>
