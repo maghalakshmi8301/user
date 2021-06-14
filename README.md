@@ -1,6 +1,6 @@
-Fetching details about the user data
+# Fetching details about the user data
 
-sample data:
+ ### sample data:
 [{
 "id":1,
 "name": "SHANKAR",
@@ -31,10 +31,11 @@ sample data:
 }
 }]
 
-URL created:
+## URL created:
 
 https://myuser.free.beeceptor.com
-curl -v -X GET 'https://myuser.free.beeceptor.com/my/api/path' -H 'Content-Type: application/json' '
-curl -v -X GET 'https://myuser.free.beeceptor.com/id=1' -H 'Content-Type: application/json' '
-curl -v -X GET 'https://myuser.free.beeceptor.com/id=2' -H 'Content-Type: application/json' '
+
+>curl -v -X GET 'https://myuser.free.beeceptor.com/my/api/path' -H 'Content-Type: application/json' '
+>curl -v -X GET 'https://myuser.free.beeceptor.com/id=1' -H 'Content-Type: application/json' '
+>curl -v -X GET 'https://myuser.free.beeceptor.com/id=2' -H 'Content-Type: application/json' '
 
